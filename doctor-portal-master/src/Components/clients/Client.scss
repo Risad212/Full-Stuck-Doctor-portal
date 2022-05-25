@@ -1,0 +1,41 @@
+#clients{
+    padding: 1.5rem 0;
+    .client-head{
+        display: flex;
+        justify-content: space-between;
+        div{
+          h4{
+              font-size: 1.2rem;
+              font-weight: 600;
+              color: #19D3AE;
+          }
+          h2{
+              font-size: 2rem;
+              margin-top: 1rem;
+              font-weight: 400;
+          }
+        }
+        img{
+            width: 10%;
+        }
+    }
+    .clientCard {
+        padding: 1rem 2rem;
+        box-shadow: 5px 5px 5px 5px rgb(242, 236, 236);
+        p{
+            margin: 1rem 0;
+            font-size: .9rem;
+        }
+        img{
+            height: 3%;
+            width: 16%;
+            border: 3px solid #19D3AE;
+            border-radius: 50%;
+            padding: 0.2rem
+        }
+        h4{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.appoinmentContainer{
+    background: #ddd;
+    height: 70vh;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+}

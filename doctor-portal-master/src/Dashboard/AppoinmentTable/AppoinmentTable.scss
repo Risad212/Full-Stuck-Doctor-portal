@@ -1,0 +1,22 @@
+.appoinmentTable{
+     background: #fff;
+     border-radius: 15px;
+     table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        td, th {
+            text-align: left;
+            padding: .6rem 1rem;
+            width: 1%;
+          }
+          th{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            
+          }
+          td{
+              font-size: 1rem;
+          }
+     }
+}

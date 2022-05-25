@@ -1,0 +1,32 @@
+#AppoinmentService{
+    padding: 5rem 0;
+    text-align: center;
+    h2{
+        font-size: 1.7rem;
+        color: #19D3AE;
+    }
+    h4{
+        font-size: 1.5rem;
+        color: #777;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    .singleService{
+        padding: 3rem 0;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px rgb(232, 229, 229);
+        button{
+            padding: .5rem 1rem;
+            background: #19D3AE;
+            color: #fff;
+            border: 2px solid #19D3AE;
+            border-radius: 5px;
+            margin-top: .5rem;
+            font-weight: 600;
+        }
+        h3{
+            color: #19D3AE;
+        }
+    }
+}

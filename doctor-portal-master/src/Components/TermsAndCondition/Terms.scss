@@ -1,0 +1,49 @@
+#Terms{
+    padding: 3rem 0;
+    .col-lg-6{
+        img{
+            width: 70%;
+            border-radius: 10px;
+        }
+        .term-content{
+            padding: 1.9rem 0;
+            h2{
+                font-size: 2.5rem;
+                color: #3A4256;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+            p{
+                font-size: .9rem;
+                margin: 1rem 0;
+            }
+            button{
+                padding: .5rem 1.8rem;
+                background: #19D3AE;
+                border: 2px solid #19D3AE;
+                border-radius: 10px;
+                a{
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+        }
+        
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    #Terms{
+        .col-lg-6{
+            img{
+                width: 100%;
+            }
+            .term-content{
+                h2{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

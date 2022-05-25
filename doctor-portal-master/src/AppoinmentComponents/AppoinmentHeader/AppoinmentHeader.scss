@@ -1,0 +1,16 @@
+#AppoinmentHeader{
+    background-image: url(../../Media/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .col-6{
+        img{
+            width: 100%;
+        }
+    }
+}
